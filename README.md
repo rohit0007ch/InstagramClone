@@ -38,3 +38,12 @@ An Instagram-like social media app built with **Swift** and **UIKit** — suppor
 1. Clone the repo  
    ```bash
    git clone https://github.com/rohit0007ch/InstagramClone.git
+
+
+
+   🧑‍💻 Author
+
+Rohit — iOS Developer
+📧 rohit@example.com
+
+🌐 Portfolio Website
