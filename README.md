@@ -1,16 +1,17 @@
 # 📱 InstagramClone
 
-An Instagram-like social media app built with **Swift** and **UIKit** — supporting user login, profile management, and Core Data persistence.
+An Instagram-like social media app built with **Swift** and **UIKit**, featuring API integration, user authentication, and Core Data persistence.  
+Designed to deliver a clean, responsive, and smooth user experience similar to Instagram.
 
 ---
 
 ## 🧩 Features
 
-- 👤 User login & registration (Core Data)
-- 🖼️ Post upload & feed view
-- ❤️ Like and comment functionality
-- 📸 Image picker using `UIImagePickerController`
-- 🎨 Fully built with **UIKit** and **Auto Layout**
+- 👤 **User Authentication:** Login & registration using Core Data  
+- 🖼️ **Dynamic Feed:** Fetches posts and user data from RESTful APIs  
+- 📸 **Image Picker:** Upload photos using `UIImagePickerController`  
+- 🎨 **Modern UI:** Fully responsive layout with Auto Layout & UIKit  
+- 🧱 **Offline Storage:** Core Data used to cache user data
 
 ---
 
@@ -28,9 +29,10 @@ An Instagram-like social media app built with **Swift** and **UIKit** — suppor
 
 - **Language:** Swift 5  
 - **Framework:** UIKit  
-- **Database:** Core Data  
 - **Architecture:** MVC  
-
+- **Database:** Core Data  
+- **Networking:** URLSession / API Fetching  
+- **UI:** Auto Layout
 ---
 
 ## 🚀 How to Run
