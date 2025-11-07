@@ -17,11 +17,15 @@ Designed to deliver a clean, responsive, and smooth user experience similar to I
 
 ## 🖥️ Screenshots
 
-| Login Screen | Feed Screen | Profile Screen | 
-|---------------|-------------|----------------|
-| <img src="screenshots/login.png" width="200"> | <img src="screenshots/feed.png" width="200"> | <img src="screenshots/profile.png" width="200"> |  <img src="screenshots/editprofile.png" width="200"> |
+**Main Screens**
+| Login | Feed | Profile |
+|-------|------|----------|
+| <img src="screenshots/login.png" width="200"> | <img src="screenshots/feed.png" width="200"> | <img src="screenshots/profile.png" width="200"> |
 
-> *Screenshots stored inside `/screenshots` folder*
+**Edit Screens**
+| Edit Profile |
+|---------------|
+| <img src="screenshots/editprofile.png" width="200"> |
 
 ---
 
