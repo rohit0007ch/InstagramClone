@@ -45,5 +45,5 @@ Designed to deliver a clean, responsive, and smooth user experience similar to I
 ## 🧑‍💻 Author
 
 **Rohit** — iOS Developer  
-📧 rohit@example.com  
+📧 rc11102003@gmail.com  
 🌐 [Portfolio Website](https://rohit0007ch.github.io)
