@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="PostCell" customModule="InstagramClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="417" height="335"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="417" height="335"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NT6-xg-f92">
+                        <rect key="frame" x="0.0" y="0.0" width="417" height="335"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0692" translatesAutoresizingMaskIntoConstraints="NO" id="qS8-y3-2IN">
+                                <rect key="frame" x="0.0" y="0.0" width="417" height="335"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <constraints>
+                            <constraint firstItem="qS8-y3-2IN" firstAttribute="leading" secondItem="NT6-xg-f92" secondAttribute="leading" id="1vb-NV-P5L"/>
+                            <constraint firstAttribute="bottom" secondItem="qS8-y3-2IN" secondAttribute="bottom" id="28m-Hp-kK3"/>
+                            <constraint firstAttribute="trailing" secondItem="qS8-y3-2IN" secondAttribute="trailing" id="4Tw-CM-hUO"/>
+                            <constraint firstItem="qS8-y3-2IN" firstAttribute="top" secondItem="NT6-xg-f92" secondAttribute="top" id="pRF-ql-ea7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="NT6-xg-f92" secondAttribute="trailing" id="Ds2-mt-Hem"/>
+                <constraint firstItem="NT6-xg-f92" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="aIs-qX-i9a"/>
+                <constraint firstAttribute="bottom" secondItem="NT6-xg-f92" secondAttribute="bottom" id="hK2-11-2xh"/>
+                <constraint firstItem="NT6-xg-f92" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="jjY-RU-JqS"/>
+            </constraints>
+            <size key="customSize" width="417" height="335"/>
+            <connections>
+                <outlet property="postImg" destination="qS8-y3-2IN" id="PoS-CG-0Gj"/>
+            </connections>
+            <point key="canvasLocation" x="240.45801526717557" y="29.929577464788736"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="IMG_0692" width="2170" height="2101"/>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.78039215689999997" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

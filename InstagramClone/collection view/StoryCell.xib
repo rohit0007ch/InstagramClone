@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="gTV-IL-0wX" customClass="StoryCell" customModule="InstagramClone" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="106" height="103"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="106" height="103"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q8a-Dy-fmz">
+                        <rect key="frame" x="0.0" y="0.0" width="106" height="103"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_0692" translatesAutoresizingMaskIntoConstraints="NO" id="QQK-aG-ZRB">
+                                <rect key="frame" x="18" y="8" width="70" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="7RT-kS-y6O"/>
+                                    <constraint firstAttribute="width" constant="70" id="8QI-ik-kz7"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="r.o.h.i.t_007" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOa-2j-WIF">
+                                <rect key="frame" x="19.333333333333336" y="77" width="67.333333333333314" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mOa-2j-WIF" secondAttribute="bottom" constant="8" id="AFJ-qR-Hbb"/>
+                            <constraint firstItem="mOa-2j-WIF" firstAttribute="top" secondItem="QQK-aG-ZRB" secondAttribute="bottom" constant="4" id="Bcb-f4-8a0"/>
+                            <constraint firstItem="QQK-aG-ZRB" firstAttribute="top" secondItem="Q8a-Dy-fmz" secondAttribute="top" constant="8" id="P7s-ML-CAp"/>
+                            <constraint firstItem="mOa-2j-WIF" firstAttribute="centerX" secondItem="Q8a-Dy-fmz" secondAttribute="centerX" id="eYE-Su-cwi"/>
+                            <constraint firstItem="QQK-aG-ZRB" firstAttribute="centerX" secondItem="mOa-2j-WIF" secondAttribute="centerX" id="lJ0-WJ-2lc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="Q8a-Dy-fmz" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="2Xo-vc-Xgc"/>
+                <constraint firstAttribute="bottom" secondItem="Q8a-Dy-fmz" secondAttribute="bottom" id="8UT-Qx-6H6"/>
+                <constraint firstItem="Q8a-Dy-fmz" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Lbl-38-2oA"/>
+                <constraint firstAttribute="trailing" secondItem="Q8a-Dy-fmz" secondAttribute="trailing" id="xOw-ZW-j7j"/>
+            </constraints>
+            <size key="customSize" width="106" height="178"/>
+            <connections>
+                <outlet property="imageView" destination="QQK-aG-ZRB" id="ONx-ad-R8q"/>
+                <outlet property="storyLbl" destination="mOa-2j-WIF" id="Pv1-wp-zjS"/>
+            </connections>
+            <point key="canvasLocation" x="218" y="34"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="IMG_0692" width="2170" height="2101"/>
+    </resources>
+</document>
