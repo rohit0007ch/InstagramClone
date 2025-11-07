@@ -42,8 +42,6 @@ An Instagram-like social media app built with **Swift** and **UIKit** — suppor
 
 
    🧑‍💻 Author
-
 Rohit — iOS Developer
-📧 rohit@example.com
+📧 rc11102003@gmail.com
 
-🌐 Portfolio Website
