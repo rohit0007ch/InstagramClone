@@ -1,6 +1,6 @@
 # 📱 InstagramClone
 
-An Instagram-like social media app built with **Swift** and **UIKit** — supporting user login, profile management, post sharing, and Core Data persistence.
+An Instagram-like social media app built with **Swift** and **UIKit** — supporting user login, profile management, and Core Data persistence.
 
 ---
 
