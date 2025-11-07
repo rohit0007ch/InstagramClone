@@ -42,8 +42,8 @@ Designed to deliver a clean, responsive, and smooth user experience similar to I
    git clone https://github.com/rohit0007ch/InstagramClone.git
 
 
+## 🧑‍💻 Author
 
-   🧑‍💻 Author
-Rohit — iOS Developer
-📧 rc11102003@gmail.com
-
+**Rohit** — iOS Developer  
+📧 rohit@example.com  
+🌐 [Portfolio Website](https://rohit0007ch.github.io)
